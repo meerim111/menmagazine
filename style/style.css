@@ -1,0 +1,623 @@
+@import "fonts.css ";
+
+* {
+    font-family:"PT Sans",sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;.
+}
+.container  {
+    max-width: 1110px;
+    margin: 0 auto ;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header__nav {
+    height: 44px;
+    background: #000000;
+
+}
+.header__nav-item {
+    display: flex;
+    justify-content:space-between;
+
+
+}
+.header__nav-phone {
+    padding: 0 5px;
+
+
+}
+.header__nav-title {
+    width: 355px;
+    font-size: 12px;
+    padding: 10px 0;
+    line-height: 16px;
+    text-decoration: none ;
+    color: #969696;
+
+}
+
+.header__icons-cart {
+    margin-right: 20px;
+
+}
+
+.header__nav-icon {
+    padding:0 5px ;
+
+
+}
+.header__nav-direction {
+    padding-top: 14px;
+    width: 107px;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none ;
+    color: #969696;
+
+}
+
+
+#header {
+    height: 80px;
+    background: #0F0F0F;
+
+}
+.header__content  {
+    display: flex;
+    justify-content:flex-end;
+}
+.header__col-6 {
+    width: 50%;
+}
+.logo {
+    font-family: Post No Bills Jaffna,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    width: 104px;
+    text-decoration: none ;
+
+
+
+}
+.menu-list {
+    list-style-type: none;
+
+}
+.menu__list-title {
+    display:inline-block;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 30px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+#hero  {
+    width:100%;
+    min-height:880px;
+    background: url("../image/backround/bg_men.png ") center  center/cover     no-repeat  ;
+
+}
+
+.hero__box {
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+    align-items: center;
+    text-align: center ;
+    margin: 0 auto ;
+
+}
+.hero__item {
+    padding-top: 160px;
+    margin: 0 auto;
+}
+
+.hero__text {
+    margin: 0 auto ;
+    padding-top: 100px;
+    width: 600px;
+    text-align: center ;
+    align-items: center;
+}
+
+
+.hero-inner  {
+    font-family: Post No Bills Jaffna;
+    display: block;
+    font-weight: bold;
+    font-size: 64px;
+    padding: 90px 60px 0 60px ;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.header__line {
+    width: 179px;
+    display: block;
+    margin: 0 auto ;
+}
+.hero__title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 40px 70px;
+    color: #FFFFFF;
+
+}
+
+
+.hero__desc {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 auto ;
+
+
+
+}
+#new__season {
+    height: 730px;
+    background: #000000;
+
+}
+
+.new__season__row{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.season__col-6 {
+    width: 45%;
+}
+.season__men__col-6 {
+    width: 55%;
+}
+
+.new__season-item {
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.new__season-content {
+    display: flex;
+
+}
+.new__season-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    display: block;
+    margin-top:93px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.season_inner {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.season__link {
+    font-family: PT Sans;
+    width: 80px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 100px;
+
+}
+
+.season__line {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.new__season-desc {
+    font-family: Playfair Display;
+    display:inline-block;
+    margin-top:25px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.new__season-price {
+    font-family: Playfair Display;
+    display:inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D0D0D0;
+
+}
+.new__season-content {
+    display: flex;
+    position: relative;
+}
+
+.new__season-catalog {
+    position: absolute;
+    right: 180px;
+    bottom: 100px;
+
+}
+.new__season-img {
+    width:180px;
+    height:220px;
+    background: #191B1C;
+    padding: 20px;
+}
+
+.season__img-men {
+    width: 100%;
+    height: 730px;
+    background: url("../image/backround/season_bg.png ") center  center/cover   no-repeat  ;
+}
+
+#collection  {
+    min-height: 600px;
+}
+
+.collection__img {
+    width:100%;
+    height:600px;
+    background: url("../image/backround/collection__bg.png ")center center/cover  no-repeat ;
+}
+
+.collection__img-black {
+    width:100%;
+    height: 600px;
+    background: #000000;;
+
+}
+
+.collection__row {
+    display: flex;
+}
+
+.collection_col-6{
+    width:40%;
+
+}
+.collection_black-col-6 {
+    width: 60%;
+}
+.collection__title {
+    font-family: Playfair Display;
+    display: block;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 auto ;
+    padding-top: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.collection__desc {
+    display: block;
+    width: 471px;
+    height: 173px;
+    margin: 0 auto ;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom:40px;
+
+
+}
+.collection__location {
+    text-decoration: none ;
+    display: block;
+    margin: 0 auto ;
+    width: 300px;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    border: 1px solid #FFF;
+    color: #FFFFFF;
+
+}
+
+#admission  {
+    background: #000000;
+}
+
+
+.admission-row {
+   display:flex;
+    flex-wrap: wrap;
+    
+}
+.admission-content {
+    display: flex;
+
+}
+.admission-item {
+    margin: 20px;
+}
+.col-3{
+    width: 25%;
+}
+.admission-title {
+    display: block;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+
+}
+
+.admission_swatch-img {
+    width: 250px;
+    height: 320px;
+    background: #191B1C;
+    padding: 20px;
+    align-items: center;
+    margin:10px;
+
+
+
+}
+
+.admission__desc {
+    font-family: Playfair Display;
+    display: block;
+    margin-top:25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.admission__price {
+    font-family: Playfair Display;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D0D0D0;
+
+
+
+}
+
+#brands {
+    height: 362px;
+    background: #0F0F0F;
+
+}
+.brands__title {
+    font-family: Playfair Display;
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.season_inner {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.season__title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+
+#about {
+    height: 400px;
+    background: url("../image/backround/about__bg.png ") center center/cover no-repeat ;
+
+}
+
+.about_row {
+    display: flex;
+
+
+}
+.about__col-4 {
+    width:33.3333%;
+
+}
+.about__inner {
+    margin-top: 40px;
+}
+.about__title {
+    font-family: Playfair Display;
+    display: block;
+    width: 150px;
+    font-size: 24px;
+    margin-top: 80px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+.about__desc {
+    margin-top: 40px;
+    display: block;
+    width: 350px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.about__category-title {
+    font-family: Playfair Display;
+    display: block;
+    margin-top: 80px;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+.item-content {
+    display: flex;
+
+}
+.menu__list-item {
+    width: 100px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #D0D0D0;
+    text-decoration: none ;
+    background: black ;
+
+}
+.about__distribution-title {
+    font-family: Playfair Display;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.about__inner-item {
+    margin-top:40px;
+}
+.about__item {
+    margin-top: 80px;
+}
+
+.about__distribution-desc {
+    padding-top: 40px;
+    display: block;
+    width: 350px;
+    font-size: 14px;
+    border: none ;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+#your__email {
+    height: 42px;
+    margin-top: 40px;
+    width: 210px;
+    padding: 10px;
+    border: none ;
+    background: rgba(255, 255, 255, 0.4);
+    color:white;
+
+}
+::placeholder {
+    color: white;
+}
+
+.subscribe {
+    width: 140px;
+    height: 42px;
+    background: #0F0F0F;
+    border: none ;
+    color: #fff;
+}
+
+#footer {
+    height: 50px;
+    background: #0F0F0F;
+
+}
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-desc {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+    padding-top: 15px;
+
+
+}
+.footer__title {
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+    padding:10px 15px 0 15px;
+
+
+}
+.footer__desc {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+
+}
